@@ -98,9 +98,3 @@ jobs:
               --repo ${{ github.repository }} || echo "Gagal membuat issue $i"
             sleep 1
           done
-
-*_Ganti bagian usernsme dan user email!!!_*
-Next
-.github/workflows/repo.yml
-
-name: Create Multiple Repositories
