@@ -1,15 +1,3 @@
-AUTO CONTRI, COMMIT, PR, DAN REPO!!! 
-
-STEP BY STEP
-SETELAN-Developer setting-personal acces token-classic-generate new- cetang repo dan workflow write-copy token
-
--Buat repo
-Buat nama bebas saja
-Psstikan public dan add readme md
-Klik setting-actions-general-read and write permissons-allow github
-Klik new file 
-.github/workflows/contribution.yml
-Paste script ini
 
 name: Generate Commits, PRs & Issues
 
