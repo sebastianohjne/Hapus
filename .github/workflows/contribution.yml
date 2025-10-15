@@ -19,7 +19,7 @@ on:
       total_commits:
         description: "Jumlah total commit"
         required: true
-        default: "1500"
+        default: "1650"
       total_days:
         description: "Jumlah hari pembagian commit"
         required: true
@@ -27,11 +27,11 @@ on:
       total_prs:
         description: "Jumlah Pull Request"
         required: true
-        default: "100"
+        default: "1"
       total_issues:
         description: "Jumlah Issue"
         required: true
-        default: "100"
+        default: "1"
 
 jobs:
   generate:
@@ -47,8 +47,8 @@ jobs:
 
       - name: Setup Git identity
         run: |
-          git config user.name "uwakmusang4-rgb"
-          git config user.email "236301556+uwakmusang4-rgb@users.noreply.github.com"
+          git config user.name "sebastianohjne"
+          git config user.email "680127+sebastianohjne@users.noreply.github.com"
 
       - name: Generate distributed commits
         env:
